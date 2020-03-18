@@ -1,4 +1,4 @@
-# 3.17.20 AI Club Coding exercises. These are mostly just for practice.
+# 3.17.20 AI Club Coding exercises. These are mostly just for practice. Small Change here.
 
 
 
