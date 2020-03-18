@@ -1,0 +1,1 @@
+These are some of the code exercies for the aiclub at CCSF.
