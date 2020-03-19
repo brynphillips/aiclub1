@@ -92,16 +92,21 @@ def fizzbuzz(number, n = 1):
         print (n)
     fizzbuzz(number, n + 1)
 
-fizzbuzz(15)
+#fizzbuzz(15)
 
-def fnum(num):
-    num=num+1
-    for x in range (num):
-        print(x)
-        if x%3==0 and x%5==0:
-            print("Fizz")
-        elif x%5==0:
-            print("Buzz")
-        elif x%3==0:
-            print("FizzBuzz")
-fnum(50)
+###
+#
+#Count the number of prime numbers less than a non-negative number, n. 
+#
+###
+
+def prime(number, start = 0, count = 0):
+    if start < number:
+        for i in range(2, number):
+            if number % i == 1:
+                count += 1
+                start += 1
+    print (count)
+        
+
+prime(10)
